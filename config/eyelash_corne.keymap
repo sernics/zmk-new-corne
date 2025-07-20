@@ -97,8 +97,8 @@
       bindings =
         <
           &studio_unlock  &kp F1      &kp F2     &kp F3       &kp F4     &kp F5                                  &mmv MOVE_UP                     &kp HOME     &kp END    &none        &none       &none            &trans
-          &trans          &kp F5      &kp F6     &kp F7       &kp F8     &kp F9                  &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT     &kp DOWN   &kp UP       &kp RIGHT   &kp PRINTSCREEN  &none
-          &trans          &kp F10     &kp F11    &kp F12      &trans     &none       &kp C_MUTE                  &mmv MOVE_DOWN                   &kp PG_UP    &kp PG_DN  &none        &none       &kp SCROLLLOCK   &trans
+          &trans          &kp F6      &kp F7     &kp F8       &kp F9     &kp F10                 &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT     &kp DOWN   &kp UP       &kp RIGHT   &kp PRINTSCREEN  &none
+          &trans          &kp F11     &kp F12    &none        &none      &none       &kp C_MUTE                  &mmv MOVE_DOWN                   &kp PG_UP    &kp PG_DN  &none        &none       &kp SCROLLLOCK   &trans
                                                  &trans       &trans     &trans                                                                   &trans       &trans     &trans
         >;
 
