@@ -52,7 +52,7 @@ layers:
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB EFF
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - RGB EFR
   - RGB SPI
   - RGB BRI
   - RGB BRD
@@ -64,11 +64,11 @@ layers:
   - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
-  - RGB ON
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {h: '4', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
@@ -80,10 +80,10 @@ layers:
   - {t: /, s: '?'}
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB OFF
-  - OUT USB
-  - OUT BLE
-  - BT CLR
+  - RGB ON
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - RGB EFR
+  - RGB EFF
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - +
@@ -91,11 +91,11 @@ layers:
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
   - {t: ., s: '>'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ',', s: <}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - INS
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   SYMBOL:
