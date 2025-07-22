@@ -78,7 +78,7 @@
         <
           &trans  &kp EXCL  &kp AT        &kp HASH     &kp DLLR     &kp PRCNT                            &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &trans
           &trans  &kp LT    &kp LPAR      &kp LBKT     &kp LBRC     &kp BSLH             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp FSLH   &kp RBRC   &kp RBKT   &kp RPAR  &kp GT    &kp GRAVE
-          &trans  &none     &none         &none        &kp PLUS     &kp EQUAL   &kp C_MUTE               &mmv MOVE_DOWN                   &kp UNDER  &kp MINUS  &none      &none     &kp PIPE  &kp TILDE
+          &trans  &none     &none         &none        &kp PLUS     &kp EQUAL   &trans                   &mmv MOVE_DOWN                   &kp UNDER  &kp MINUS  &none      &none     &kp PIPE  &kp TILDE
                                           &trans       &trans       &kp SPACE                                                             &kp RET    &trans     &trans
         >;
 
@@ -89,10 +89,10 @@
       display-name = "NUMBER";
       bindings = 
         <
-          &trans  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR &rgb_ug RGB_SPI &rgb_ug RGB_BRI  &rgb_ug RGB_BRD                               &mmv MOVE_UP                     &kp ASTRK        &kp N7           &kp N8           &kp N9           &kp PLUS  &trans
-          &trans  &none            &trans          &trans          &trans           &trans                        &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS        &kp N4           &kp N5           &kp N6           &kp EQUAL &kp FSLH  
-          &trans  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &none           &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &trans                       &mmv MOVE_DOWN                   &kp N0           &kp N1           &kp N2           &kp N3           &kp DOT   &trans 
-                                                   &trans          &trans           &trans                                                                         &kp INS          &kp DEL          &trans
+          &trans  &none  &none  &none   &none   &none                                         &mmv MOVE_UP                     &kp EQUAL        &kp N7           &kp N8           &kp N9           &kp PLUS  &kp MINUS
+          &trans  &none  &none  &none   &none   &none                         &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &none            &kp N4           &kp N5           &kp N6           &kp ASTRK &kp FSLH  
+          &trans  &none  &none  &none   &none   &none            &trans                       &mmv MOVE_DOWN                   &kp N0           &kp N1           &kp N2           &kp N3           &kp DOT   &kp COMMA
+                                &trans  &trans  &trans                                                                         &kp INS          &kp DEL          &trans
         >;
 
       sensor-bindings = <&inc_dec_kp DOWN UP>;
