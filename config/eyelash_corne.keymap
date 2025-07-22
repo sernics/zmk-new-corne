@@ -78,7 +78,7 @@
         <
           &trans  &kp EXCL  &kp AT        &kp HASH     &kp DLLR     &kp PRCNT                            &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &trans
           &trans  &kp LT    &kp LPAR      &kp LBKT     &kp LBRC     &kp BSLH             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp FSLH   &kp RBRC   &kp RBKT   &kp RPAR  &kp GT    &kp GRAVE
-          &trans  &none     &none         &none        &kp PLUS     &kp EQUAL                            &mmv MOVE_DOWN                   &kp UNDER  &kp MINUS  &none      &none     &kp PIPE  &kp TILDE
+          &trans  &none     &none         &none        &kp PLUS     &kp EQUAL   &kp C_MUTE               &mmv MOVE_DOWN                   &kp UNDER  &kp MINUS  &none      &none     &kp PIPE  &kp TILDE
                                           &trans       &trans       &kp SPACE                                                             &kp RET    &trans     &trans
         >;
 
