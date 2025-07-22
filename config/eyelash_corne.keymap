@@ -43,7 +43,7 @@
     bindings = <&rgb_ug RGB_BRI>, <&rgb_ug RGB_BRD>;
   };
 
-  td_l3: td_layer3_lock {
+  td_l3: td_l3 {
     compatible = "zmk,behavior-tap-dance";
     #binding-cells = <0>;
     bindings = <&mo 3>, <&layer_toggle 3>;
