@@ -46,8 +46,8 @@ layers:
   - LGUI
   - NAV
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', h: NUMBER}
-  - SYMBOL
+  - {t: '$$mdi:keyboard-return$$', h: SYMBOL}
+  - NUMBER
   - {t: '$$mdi:apple-keyboard-option$$', h: FN}
   NAV:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -144,8 +144,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {type: held}
+  - {t: '$$mdi:keyboard-return$$', type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   NUMBER:
   - '&studio_unlock'
@@ -193,8 +193,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: INS, type: held}
-  - $$mdi:backspace-reverse-outline$$
+  - INS
+  - {t: '$$mdi:backspace-reverse-outline$$', type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   FN:
   - {t: '$$mdi:transfer$$', type: trans}
