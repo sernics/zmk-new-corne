@@ -46,7 +46,7 @@
   td_l3: td_l3 {
     compatible = "zmk,behavior-tap-dance";
     #binding-cells = <0>;
-    bindings = <&mo 3>, <&layer_toggle 3>;
+    bindings = <&mo 3>, <&tog 3>;
   };
 
   keymap {
