@@ -50,9 +50,10 @@
   };
 
   td_fn: td_fn {
-    compatible = "zmk,behavior-tap-dance";
-    #binding-cells = <0>;
-    bindings = <&none>, <&tog 4>;
+      compatible = "zmk,behavior-tap-dance";
+      #binding-cells = <0>;
+      bindings = <&kp RALT>, <&tog 4>;
+      tapping-term-ms = <200>;
   };
 
   keymap {
