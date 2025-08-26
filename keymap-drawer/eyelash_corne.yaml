@@ -111,7 +111,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
   - ^
   - '&'
   - '*'
@@ -135,7 +135,7 @@ layers:
   - {t: '=', s: +}
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '0', s: )}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
