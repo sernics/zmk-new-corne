@@ -206,7 +206,7 @@ parse_config:
 
     # Empty
     "&none":
-      tap: $$mdi:minus-circle-outline$$
+      tap: ""
       type: none
 
     # Whitespace
