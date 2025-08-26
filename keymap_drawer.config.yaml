@@ -127,7 +127,7 @@ parse_config:
     "&td_fn":
       tap: "FN"
     "&parens":
-      tap: "()"
+      tap: "(a)"
     "&brackets":
       tap: "[]"
     "&braces":
