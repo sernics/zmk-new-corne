@@ -102,10 +102,10 @@
       display-name = "F1-12";
       bindings =
         <
-          &studio_unlock  &kp F1      &kp F2     &kp F3       &kp F4     &kp F5                                    &mmv MOVE_UP                     &none  &none    &none 
-          &trans          &kp F6      &kp F7     &kp F8       &kp F9     &kp F10                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &none  &none    &none 
-          &trans          &kp F11     &kp F12    &none        &none      &none       &kp C_MUTE                    &mmv MOVE_DOWN                   &none  &none    &none 
-                                                 &trans       &trans     &trans                                                                     &trans &trans   &td_fn
+          &studio_unlock  &kp F1      &kp F2     &kp F3       &kp F4     &kp F5                                    &mmv MOVE_UP                     &none  &none   &none  &none  &none &none
+          &trans          &kp F6      &kp F7     &kp F8       &kp F9     &kp F10                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &none  &none   &none  &none  &none &none
+          &trans          &kp F11     &kp F12    &none        &none      &none       &kp C_MUTE                    &mmv MOVE_DOWN                   &none  &none   &none  &none  &none &none
+                                                 &trans       &trans     &trans                                                                     &trans &trans  &td_fn
         >;
 
       sensor-bindings = <&inc_dec_kp DOWN UP>;
