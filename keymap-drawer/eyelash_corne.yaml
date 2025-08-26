@@ -47,8 +47,8 @@ layers:
   - NAV
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', h: F1-12}
-  - '&td_l2'
-  - '&td_fn'
+  - NUMSYM
+  - FN
   NAV:
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -145,7 +145,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - INS
-  - '&td_l2'
+  - NUMSYM
   - {t: '$$mdi:transfer$$', type: trans}
   F1-12:
   - '&studio_unlock'
@@ -195,7 +195,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&td_fn'
+  - FN
   FN:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:bluetooth-off$$
