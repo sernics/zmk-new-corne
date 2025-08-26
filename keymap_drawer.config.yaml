@@ -115,7 +115,18 @@ parse_config:
   trans_legend:
     tap: $$mdi:transfer$$
     type: trans
-
+#########################################################################################
+  zmk:
+    aliases:
+      "&td_l2": "&mo 2"   # trata td_l2 como si fuera mo 2 (resalta en NUMSYM)
+      "&td_fn": "&tog 4"  # trata td_fn como toggle de capa 4 (FN)
+      
+  # leyendas personalizadas para mostrar nombres bonitos
+  "&td_l2":
+    tap: "NUMSYM"   # o "L2" si prefieres
+  "&td_fn":
+    tap: "FN"
+#########################################################################################
   raw_binding_map:
     # Layers
     "&ltq 1 BACKSPACE":
