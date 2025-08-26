@@ -126,6 +126,12 @@ parse_config:
       tap: "NUMSYM"   # o "L2" si prefieres
     "&td_fn":
       tap: "FN"
+    "&parens":
+      tap: "()"
+    "&brackets":
+      tap: "[]"
+    "&braces":
+      tap: "{}"
 #########################################################################################
     # Layers
     "&ltq 1 BACKSPACE":
