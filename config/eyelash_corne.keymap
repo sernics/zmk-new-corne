@@ -98,8 +98,8 @@
       bindings =
         <
           &kp N1  &kp N2 &kp N3 &kp N4  &kp N5  &kp N6                                    &mmv MOVE_UP                     &kp HOME     &kp END    &none        &none       &none            &trans
-          &trans  &none  &none  &none   &none   &none                     &mmv MOVE_LEFT  &mkp RCLK       &mmv MOVE_RIGHT  &kp LEFT     &kp DOWN   &kp UP       &kp RIGHT   &kp PRINTSCREEN  &none
-          &trans  &none  &none  &none   &none   &none            &trans                   &mmv MOVE_DOWN                   &kp PG_UP    &kp PG_DN  &none        &none       &kp SCROLLLOCK   &trans
+          &trans  &kp F1 &kp F2 &kp F3  &kp F4  &kp F5                    &mmv MOVE_LEFT  &mkp RCLK       &mmv MOVE_RIGHT  &kp LEFT     &kp DOWN   &kp UP       &kp RIGHT   &kp PRINTSCREEN  &none
+          &trans  &kp F1 &none  &none   &none   &none            &trans                   &mmv MOVE_DOWN                   &kp PG_UP    &kp PG_DN  &none        &none       &kp SCROLLLOCK   &trans
                                 &trans  &trans  &trans                                                                     &trans       &kp DEL    &trans
         >;
 
