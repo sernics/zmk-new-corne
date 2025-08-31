@@ -64,11 +64,11 @@ layers:
   - {type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
@@ -79,7 +79,7 @@ layers:
   - PRINTSCREEN
   - {type: none}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: none}
+  - F1
   - {type: none}
   - {type: none}
   - {type: none}
